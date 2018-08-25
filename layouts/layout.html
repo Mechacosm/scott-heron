@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swipebox.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=560">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1 class="title">
+                <a href="/">{{headerTitle}}</a>
+            </h1>
+            {{#links}}
+            <h2>
+                <a href="{{url}}"{{#isExternal}} rel="external" target="_blank"{{/isExternal}}>{{name}}</a>
+            </h2>
+            {{/links}}
+        </nav>
+    </header>
+    <div class="content">
+        {{#projects}}
+        <a href="{{url}}" class="game-link swipebox" title="{{title}}">
+            <div class="game-background" style="background-image: url('{{background}}');">
+            </div>
+            <div class="game-info">
+                <p>{{{description}}}</p>
+            </div>
+        </a>
+        {{/projects}}
+    </div>
+    <footer>
+        &copy;{{year}} Mitch Andrews
+    </footer>
+
+    <script src="js/jquery-2.1.0.min.js"></script>
+    <script src="js/jquery.swipebox.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            /* Basic Gallery */
+            $('.swipebox').swipebox();
+
+            /* Video */
+            $('.swipebox-video').swipebox();
+
+            /* Dynamic Gallery */
+            $('#gallery').click(function (e) {
+                e.preventDefault();
+                $.swipebox([
+                    { href: 'http://swipebox.csag.co/mages/image-1.jpg', title: 'My Caption' },
+                    { href: 'http://swipebox.csag.co/images/image-2.jpg', title: 'My Second Caption' }
+                ]);
+            });
+
+        });
+    </script>
+</body>
+
+</html>

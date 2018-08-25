@@ -1,0 +1,302 @@
+@import url('//fonts.googleapis.com/css?family=Poppins');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Clearfix */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+* {
+    box-sizing: border-box;
+}
+
+.accent {
+    color: #ed174b !important;
+}
+
+body {
+    background: #FEFEFE;
+    color: #333333;
+    font-family: "Poppins";
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #FEFEFEB3;
+    z-index: 1;
+}
+.title {
+    padding: 28px 0 20px 40px;
+    float: left;
+    margin-right: 40px;
+}
+.title a {
+    color: #ed174b;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.title a:hover {
+    text-decoration: underline;
+}
+
+header h2 {
+    padding: 40px 40px 0 0;
+    font-size: 18px;
+    font-weight: 800;
+    float: right;
+}
+
+header h2 a {
+    text-decoration: none;
+    color: #333333;
+}
+
+header h2 a:hover {
+    text-decoration: underline;
+    color: #ed174b;
+}
+
+
+nav {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+nav h1 {
+    float: left;
+}
+
+.content {
+    margin: 100px auto 0 auto;
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+}
+
+.content a {
+    color: black;
+    text-decoration: none;
+}
+
+.column img {
+    vertical-align: middle;
+}
+
+.game-link {
+    position: relative;
+    display: block;
+    -ms-flex: 33.333333%; /* IE10 */
+    flex: 33.333333%;
+    max-width: 33.333333%;
+    overflow: hidden;
+}
+
+.game-link:hover .game-info {
+    display: block;
+}
+
+.game-link:hover .game-background {
+    -webkit-filter: blur(5px); /* Safari */
+    filter: blur(5px);
+}
+
+.game-link:hover .project-title {
+    text-decoration: underline;
+}
+
+.game-link .game-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000000B3;
+    display: none;
+}
+
+.game-info {
+    height: 420px;
+}
+
+.game-background {
+    height: 420px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.game-info p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: #FEFEFE;
+    text-align: center;
+    width: 80%;
+    line-height: 1.45;
+}
+
+.project-title {
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.padded-wrapper {
+  padding: 20px 40px 40px;
+  width: 100%;
+}
+
+.description a {
+    color: #ed174b;
+}
+.description a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1180px) {
+    .content {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+    header {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+    .title {
+        display: block;
+    }
+    header nav {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 880px) {
+    .content {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+        margin-top: 0px;
+    }
+    .title {
+        float: left;
+        display: block;
+    }
+    .game-link {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+    .title {
+        clear: both;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+    .title a {
+        font-size: 30px;
+        text-align: center;
+    }
+    header {
+        height: 150px;
+        position: unset;
+    }
+    header h1 {
+        font-size: 15px;
+    }
+    nav {
+        width: auto;
+    }
+    .game-info {
+        height: 320px;
+    }
+
+    .game-background {
+        height: 320px;
+    }
+}
+
+.bullet-list {
+}
+
+.bullet-list li {
+    color: #ed174b;
+    margin: 5px 0 5px 25px;
+    list-style-type: disclosure-closed;
+}
+
+.bullet-list li div {
+    color: #333333;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+    font-family: "Poppins";
+}
+
+.section {
+    margin-top: 20px;
+}
