@@ -25,7 +25,7 @@
     </header>
     <div class="content">
         {{#projects}}
-        <a href="{{url}}" class="game-link swipebox" title="{{title}}">
+        <a href="#" class="game-link" title="{{title}}" id="{{slug}}">
             <div class="game-background" style="background-image: url('{{background}}');">
             </div>
             <div class="game-info">
@@ -50,14 +50,16 @@
             $('.swipebox-video').swipebox();
 
             /* Dynamic Gallery */
-            $('#gallery').click(function (e) {
+            {{#projects}}
+            $('#{{slug}}').click(function (e) {
                 e.preventDefault();
                 $.swipebox([
-                    { href: 'http://swipebox.csag.co/mages/image-1.jpg', title: 'My Caption' },
-                    { href: 'http://swipebox.csag.co/images/image-2.jpg', title: 'My Second Caption' }
+            {{#images}}
+                    { href: '{{url}}', title: '{{fullTitle}}' },
+            {{/images}}
                 ]);
             });
-
+            {{/projects}}
         });
     </script>
 </body>

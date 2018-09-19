@@ -1,19 +1,27 @@
 ---
 layout: layout.html
 projects: [{
-    "slug": "dmk",
-    "title": "🕹️ Disney Magic Kingdoms",
-    "background": "/img/dmk.jpg",
-    "description": "I worked on various aspects of Disney Magic Kingdoms for mobile.",
+    "slug": "hexx",
+    "title": "Hexx",
+    "background": "/img/hexx-01.png",
+    "description": "jon comoglio.",
     "date": "March 18, 2016",
-    "url": "/img/dmk.jpg"
+    "images": [{
+        "url": "/img/hexx-01.png",
+        "fullTitle": "Hexx is a boo boo the fool"
+        
+    },{
+        "url": "https://vimeo.com/153974550",
+        "fullTitle": "I made this because Im pighorny"
+        
+    }]
 },{
-    "slug": "mitch-engine",
-    "title": "🚀 Mitch Engine",
-    "background": "img/me-logo.png",
-    "description": "Mitch Engine is a simple c++ component based engine for building 3d games, demos, and other graphical applications. It's a great hobby project to keep me exploring the world of c++.",
+    "slug": "banana-corporate",
+    "title": "Banana Corporate",
+    "background": "img/banana-corporate.png",
+    "description": "An evil business genius, Banana Corporate has plans to steal the ocean.",
     "date": "n/a",
-    "url": "img/me-logo.png"
+    "url": "img/banana-corporate.png"
 },{
     "slug": "statistically-improbable",
     "title": "🕹️ Statistically Improbable",

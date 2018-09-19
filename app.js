@@ -7,22 +7,22 @@ var beautify = require('metalsmith-beautify');
 var date = new Date();
 
 var data = {
-  title: "Scott Heron - pp toucher",
-  description: "The home of him the him!",
+  title: "Scott Heron",
+  description: "Made from 100% real Canadian Spaghetti!",
   year: date.getFullYear(),
-  url: "http://wobbier.github.io/",
+  url: "http://mechacosm.github.io/",
   headerTitle: "SCOTT HERON",
   links: [{
     name: "LINKEDIN",
-    url: "https://linkedin.com/in/mitchellandrews",
+    url: "https://linkedin.com/in/mechacosm",
     isExternal: true
   },{
     name: "TWITTER",
-    url: "https://twitter.com/wobbier",
+    url: "https://twitter.com/mechacosm",
     isExternal: true
   },{
     name: "EMAIL",
-    url: "mailto:mitchdandrews@gmail.com"
+    url: "mailto:mechacosm@gmail.com"
   },{
     name: "ABOUT",
     url: "/about"
