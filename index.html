@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Scott Heron - pp toucher</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/swipebox.css">
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=560">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<h1 class="title">
+				<a href="/">SCOTT HERON</a>
+			</h1>
+			<h2>
+				<a href="https://linkedin.com/in/mitchellandrews" rel="external" target="_blank">LINKEDIN</a>
+			</h2>
+			<h2>
+				<a href="https://twitter.com/wobbier" rel="external" target="_blank">TWITTER</a>
+			</h2>
+			<h2>
+				<a href="mailto:mitchdandrews@gmail.com">EMAIL</a>
+			</h2>
+			<h2>
+				<a href="/about">ABOUT</a>
+			</h2>
+		</nav>
+	</header>
+	<div class="content">
+		<a href="/img/dmk.jpg" class="game-link swipebox" title="🕹️ Disney Magic Kingdoms">
+			<div class="game-background" style="background-image: url('/img/dmk.jpg');">
+			</div>
+			<div class="game-info">
+				<p>I worked on various aspects of Disney Magic Kingdoms for mobile.</p>
+			</div>
+		</a>
+		<a href="img/me-logo.png" class="game-link swipebox" title="🚀 Mitch Engine">
+			<div class="game-background" style="background-image: url('img/me-logo.png');">
+			</div>
+			<div class="game-info">
+				<p>Mitch Engine is a simple c++ component based engine for building 3d games, demos, and other graphical applications. It's a great hobby project to keep me exploring
+					the world of c++.</p>
+			</div>
+		</a>
+		<a href="/img/s-i.png" class="game-link swipebox" title="🕹️ Statistically Improbable">
+			<div class="game-background" style="background-image: url('/img/s-i.png');">
+			</div>
+			<div class="game-info">
+				<p>A spiritual successor to the cult hit Goatie 3D. This year's T.O. Jam goal was to take goatie, and trash it in favor of something better.</p>
+			</div>
+		</a>
+		<a href="https://i.imgur.com/SrpIido.png" class="game-link swipebox" title="🕹️ Goatie 3D">
+			<div class="game-background" style="background-image: url('https://i.imgur.com/SrpIido.png');">
+			</div>
+			<div class="game-info">
+				<p>A spiritual successor to the cult hit Goatie Jr. This year's T.O. Jam goal was to take goatie to the next level.</p>
+			</div>
+		</a>
+		<a href="https://i.imgur.com/wUGcl6c.png" class="game-link swipebox" title="🕹️ VRTX">
+			<div class="game-background" style="background-image: url('https://i.imgur.com/wUGcl6c.png');">
+			</div>
+			<div class="game-info">
+				<p>Hovercrafts, Multiplayer, EXPLOSIONS!?! Battle against other players in your own VRTX hovercraft fully equipped with weapons of your choice! Jump into an online
+					match to prove your dominance on the race track or in the battle arena.</p>
+			</div>
+		</a>
+		<a href="https://i.imgur.com/5XeHqld.png" class="game-link swipebox" title="Personal Portfolio">
+			<div class="game-background" style="background-image: url('https://i.imgur.com/5XeHqld.png');">
+			</div>
+			<div class="game-info">
+				<p>This website is currently hosted on GitHub Pages and powered by Metalsmith, Node.js, and Mustache. It has has always been an active project for me because it
+					gave me the opportunity to explore web related languages / services like Node.js, Mongoose, PHP, MySQL, and a little Ruby.</p>
+			</div>
+		</a>
+	</div>
+	<footer>
+		&copy;2018 Mitch Andrews
+	</footer>
+
+	<script src="js/jquery-2.1.0.min.js"></script>
+	<script src="js/jquery.swipebox.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/* Basic Gallery */
+			$('.swipebox').swipebox();
+			/* Video */
+			$('.swipebox-video').swipebox();
+			/* Dynamic Gallery */
+			$('#gallery').click(function(e) {
+				e.preventDefault();
+				$.swipebox([{
+						href: 'http://swipebox.csag.co/mages/image-1.jpg',
+						title: 'My Caption'
+					},
+					{
+						href: 'http://swipebox.csag.co/images/image-2.jpg',
+						title: 'My Second Caption'
+					}
+				]);
+			});
+		});
+	</script>
+</body>
+
+</html>
