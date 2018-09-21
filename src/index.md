@@ -1,7 +1,21 @@
 ---
 layout: layout.html
 projects: [{
-    "slug": "hexx",
+    "slug": "demo",
+    "title": "Demo",
+    "background": "/img/demo-thumb",
+    "description": "Demo",
+    "date": "September 20, 2018",
+    "images": [{
+        "url": "/img/demo-thumb.png",
+        "fullTitle": "Hexx is a boo boo the fool"
+        
+    },{
+        "url": "https://vimeo.com/291019063",
+        "fullTitle": "Scott"
+        
+    }]
+},{ "slug": "hexx",
     "title": "Hexx",
     "background": "/img/hexx-01.png",
     "description": "jon comoglio.",
@@ -18,10 +32,18 @@ projects: [{
 },{
     "slug": "banana-corporate",
     "title": "Banana Corporate",
-    "background": "img/banana-corporate.png",
+    "background": "img/bananacorporate-close",
     "description": "An evil business genius, Banana Corporate has plans to steal the ocean.",
     "date": "n/a",
-    "url": "img/banana-corporate.png"
+    "images": [{
+        "url": "/img/bananacorporate-close",
+        "fullTitle": "Hexx is a boo boo the fool"
+        
+    },{
+        ""url": "/img/bananacorporate-rotation",
+        "fullTitle": "Hexx is a boo boo the fool"
+        
+    }]
 },{
     "slug": "statistically-improbable",
     "title": "🕹️ Statistically Improbable",
