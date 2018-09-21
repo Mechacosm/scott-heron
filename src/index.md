@@ -9,9 +9,9 @@ projects: [{
     "images": [{
         "url": "https://vimeo.com/291019063",
         "fullTitle": "Scott"
-        
     }]
-},{ "slug": "hexx",
+},{ 
+    "slug": "hexx",
     "title": "hexx",
     "background": "/img/hexx-thumb.png",
     "description": "Hexx",
