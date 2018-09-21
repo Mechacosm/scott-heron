@@ -11,20 +11,20 @@ var data = {
   description: "Made from 100% real Canadian Spaghetti!",
   year: date.getFullYear(),
   url: "http://mechacosm.github.io/",
-  headerTitle: "SCOTT HERON",
+  headerTitle: "scott heron",
   links: [{
-    name: "LINKEDIN",
+    name: "linkedin",
     url: "https://linkedin.com/in/mechacosm",
     isExternal: true
   },{
-    name: "TWITTER",
+    name: "twitter",
     url: "https://twitter.com/mechacosm",
     isExternal: true
   },{
-    name: "EMAIL",
+    name: "email",
     url: "mailto:mechacosm@gmail.com"
   },{
-    name: "ABOUT",
+    name: "about",
     url: "/about"
   }]
 };

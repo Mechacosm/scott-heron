@@ -59,7 +59,7 @@ table {
 }
 
 .accent {
-    color: #ed174b !important;
+    color: #ffb400 !important;
 }
 
 body {
@@ -82,7 +82,7 @@ header {
     margin-right: 40px;
 }
 .title a {
-    color: #ed174b;
+    color: #ffb400;
     font-size: 40px;
     font-weight: bold;
     text-decoration: none;
@@ -105,7 +105,7 @@ header h2 a {
 
 header h2 a:hover {
     text-decoration: underline;
-    color: #ed174b;
+    color: #ffb400;
 }
 
 
@@ -124,9 +124,25 @@ nav h1 {
     display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
+    background-color: black;
 }
 
 .content a {
+    color: black;
+    text-decoration: none;
+}
+.about-content {
+    margin: 100px auto 0 auto;
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+}
+.about-content img{
+    margin: 0 auto;
+}
+
+.about-content a {
     color: black;
     text-decoration: none;
 }
@@ -203,7 +219,7 @@ nav h1 {
 }
 
 .description a {
-    color: #ed174b;
+    color: #ffb400;
 }
 .description a:hover {
     text-decoration: underline;
@@ -282,7 +298,7 @@ nav h1 {
 }
 
 .bullet-list li {
-    color: #ed174b;
+    color: #ffb400;
     margin: 5px 0 5px 25px;
     list-style-type: disclosure-closed;
 }

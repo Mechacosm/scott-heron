@@ -1,6 +1,7 @@
 ---
 layout: about.html
-title: "About also real"
+title: "About, real"
 ---
-<img src="https://media.giphy.com/media/lfvwvIGzB7daE/giphy.gif" width="100%" />
-Asuh dude, this website is currently under development.
+<img src="/img/sandmen-idle.gif" width="50%" />
+<br>
+Still developing this page!
