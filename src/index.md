@@ -93,47 +93,6 @@ projects: [{
         "url": "/img/bananacorporate-rotation.png",
         "fullTitle": "placeholder"
     }]
-
-},{
-    "slug": "organgrinders",
-    "title": "Organ Grinders",
-    "background": "/img/organgrinders.png",
-    "description": "organ grinders",
-    "date": "n/a",
-    "images": [{
-        "url": "/img/organgrinders.png",
-        "fullTitle": "placeholder"
-    }]
-},{
-    "slug": "keep-it-weird",
-    "title": "Keepin' it Weird",
-    "background": "/img/keep-it-weird-thumb.png",
-    "description": "keepin' it weird",
-    "date": "n/a",
-    "images": [{
-        "url": "/img/keep-it-weird.png",
-        "fullTitle": "placeholder"
-    }]
-},{
-    "slug": "dead-drop",
-    "title": "Dead Drop",
-    "background": "/img/dead-drop.png",
-    "description": "dead drop",
-    "date": "n/a",
-    "images": [{
-        "url": "/img/dead-drop.png",
-        "fullTitle": "placeholder"
-    }]
-},{
-    "slug": "heartgate",
-    "title": "Heartgate",
-    "background": "/img/heartgate.png",
-    "description": "heartgate",
-    "date": "n/a",
-    "images": [{
-        "url": "/img/heartgate.png",
-        "fullTitle": "placeholder"
-    }]
 },{
     "slug": "statistically-improbable",
     "title": "Statistically Improbable",
