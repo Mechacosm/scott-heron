@@ -94,13 +94,23 @@ projects: [{
         "fullTitle": "placeholder"
     }]
 },{
-    "slug": "statistically-improbable",
-    "title": "Statistically Improbable",
-    "background": "/img/s-i.png",
-    "description": "Sharks versus Vending Machines",
-    "date": "May 07, 2018",
+    "slug": "prv",
+    "title": "PRV",
+    "background": "/img/prv-thumb.png",
+    "description": "prv for watts lol",
+    "date": "n/a",
     "images": [{
-        "url": "/img/s-i.png",
+        "url": "https://vimeo.com/291830032",
+        "fullTitle": "placeholder"
+    }]
+},{
+    "slug": "ballvalve",
+    "title": "Ball Valve",
+    "background": "/img/bv-thumb.png",
+    "description": "ball valve for watts lol",
+    "date": "n/a",
+    "images": [{
+        "url": "https://vimeo.com/291831778",
         "fullTitle": "placeholder"
     }]
 }]
