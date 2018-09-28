@@ -1,7 +1,6 @@
 ---
 layout: about.html
-title: "About, real"
+title: "some things i've done"
 ---
-<img src="/img/sandmen-idle.gif" width="50%" />
+<embed src="/img/resume.pdf" width="800px" height="1100x" />
 <br>
-Still developing this page!

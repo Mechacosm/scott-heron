@@ -18,22 +18,22 @@ projects: [{
     "date": "March 18, 2016",
     "images": [{
         "url": "/img/hexx-high.png",
-        "fullTitle": "HEXX"
+        "fullTitle": "Hexx is a gunmancer, designed by Jon Comoglio"
     },{
         "url": "/img/hexx-rotation.png",
-        "fullTitle": "Hexx rotation"
+        "fullTitle": "I created the character for J Hill's Character Creation for Video games course"
     },{
         "url": "/img/hexx-rotation-wire.png",
-        "fullTitle": "Hexx rotation"
+        "fullTitle": "She was sculpted in Zbrush, modelled in 3DS Max, and textured in Substance painter"
     },{
         "url": "/img/hexx-close.png",
-        "fullTitle": "Hexx rotation"
+        "fullTitle": "-->"
     },{
         "url": "/img/hexx-close-wire.png",
-        "fullTitle": "Hexx rotation"
+        "fullTitle": "-->"
     },{
         "url": "/img/jon-comoglio-hexx.png",
-        "fullTitle": "Based off the lovely designs by Jon Comoglio"
+        "fullTitle": "Jon's original design I based the character off of"
         
     }]
 },{
@@ -44,13 +44,13 @@ projects: [{
     "date": "n/a",
     "images": [{
         "url": "/img/terra-high.png",
-        "fullTitle": "Placeholder"
+        "fullTitle": "Terra is a Star Heart, a powerful super human that protects the world from the dangers of Surreality"
     },{
         "url": "/img/terra-rotation.png",
-        "fullTitle": "Placeholder"
+        "fullTitle": "The character is my own design, fitting into a story I'm currently developing called Star Hearts"
     },{
         "url": "/img/terra-rotation-wire.png",
-        "fullTitle": "Placeholder"
+        "fullTitle": "She was sculpted in Zbrush, modelled in Maya, and textured in Substance Painter"
         
     }]
 },{
@@ -61,10 +61,10 @@ projects: [{
     "date": "n/a",
     "images": [{
         "url": "/img/six-close.png",
-        "fullTitle": "placeholder"
+        "fullTitle": "Six is a Star Heart, and partner to Terra. He's a reality warping adventurer that can punch people back in time"
     },{
         "url": "/img/six-rotation.png",
-        "fullTitle": "placeholder"
+        "fullTitle": "Similar to Terra, he's based off of an older character that I've updated. He was sculpted in Zbrush"
     }]
 },{
     "slug": "icey",
@@ -74,10 +74,10 @@ projects: [{
     "date": "n/a",
     "images": [{
         "url": "/img/icey-close.png",
-        "fullTitle": "placeholder"
+        "fullTitle": "Icey -C is an exploration into the general style of Star Hearts"
     },{
         "url": "/img/icey-rotation.png",
-        "fullTitle": "placeholder"
+        "fullTitle": "I sculpted her in an attempt to learn how to create 3D ice cream, and got a little carried away"
     }]
 
 },{
@@ -88,30 +88,30 @@ projects: [{
     "date": "n/a",
     "images": [{
         "url": "/img/bananacorporate-close.png",
-        "fullTitle": "placeholder"
+        "fullTitle": "An evil corporate business genius, Banana Corporate has plans to steal the ocean to make all of the banana juice in the world"
     },{
         "url": "/img/bananacorporate-rotation.png",
-        "fullTitle": "placeholder"
+        "fullTitle": "He's the main villain from another project I've got stewing in the back of my head called Tart and Tang"
     }]
 },{
     "slug": "prv",
     "title": "PRV",
     "background": "/img/PRV-thumb.png",
-    "description": "prv for watts lol",
+    "description": "prv animation",
     "date": "n/a",
     "images": [{
         "url": "https://vimeo.com/291830032",
-        "fullTitle": "placeholder"
+        "fullTitle": "An animation I put together for Watts. Everything was done in 3DS Max, and rendered in V-Ray"
     }]
 },{
     "slug": "ballvalve",
     "title": "Ball Valve",
     "background": "/img/BV-thumb.png",
-    "description": "ball valve for watts lol",
+    "description": "ball valve animation",
     "date": "n/a",
     "images": [{
         "url": "https://vimeo.com/291831778",
-        "fullTitle": "placeholder"
+        "fullTitle": "Another animation for Watts. Also done entirely in 3DS Max, rendered in V-Ray, and edited in After Effects"
     }]
 }]
 ---

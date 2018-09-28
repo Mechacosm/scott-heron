@@ -13,10 +13,6 @@ var data = {
   url: "http://mechacosm.github.io/",
   headerTitle: "scott heron",
   links: [{
-    name: "twitter",
-    url: "https://twitter.com/mechacosm",
-    isExternal: true
-  },{
     name: "email",
     url: "mailto:mechacosm@gmail.com"
   },{

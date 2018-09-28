@@ -131,7 +131,7 @@ nav h1 {
     text-decoration: none;
 }
 .about-content {
-    margin: 100px auto 0 auto;
+    margin: 0px auto 0 auto;
     display: -ms-flexbox; /* IE10 */
     display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
@@ -310,6 +310,7 @@ footer {
     text-align: center;
     padding: 50px;
     font-family: "Poppins";
+    color:white;
     background: #000000;
 }
 
