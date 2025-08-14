@@ -13,17 +13,19 @@ var data = {
   url: "http://mechacosm.github.io/",
   headerTitle: "scott heron",
   links: [{
-    name: "email",
+    name: "mechacosm@gmail.com",
     url: "mailto:mechacosm@gmail.com"
-  },{
-    name: "about",
-    url: "/about"
-  },{
-    name: "2D",
-    url: "/2D"
-  },{
-    name: "3D",
-    url: "/"
+  //Links KILLED
+
+    // },{
+   // name: "about",
+   // url: "/about"
+   // },{
+   // name: "2D",
+   // url: "/2D"
+  // },{
+   // name: "3D",
+   // url: "/"
   }]
 };
 
